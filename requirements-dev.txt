@@ -1,0 +1,11 @@
+# Development dependencies for CodemieRepo.
+# Install with:
+#   pip install -r requirements-dev.txt
+
+# Testing
+pytest>=7.4
+pytest-cov>=4.1
+requests-mock>=1.11
+
+# Runtime deps required by the refactored project modules
+requests>=2.31
